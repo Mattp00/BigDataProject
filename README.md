@@ -47,7 +47,7 @@ The implemented models can be summarized as follows:
   2) Random Forest
 
 - **Regression**:  
-  Designed to analyze the correlation between per-capita income and per-capita crime rates. This model is intended for inference rather than prediction, aiming to explore possible relationships between economic factors and crime levels.
+  Designed to analyze the correlation between per-capita income and per-capita `HiGH ENTITY THEFT` crime rates. This model is intended for inference rather than prediction, aiming to explore possible relationships between economic factors and crime levels.
 
 ## Technical implementation
 
@@ -104,7 +104,7 @@ The results show that the **Random Forest classifier** outperformed the **Logist
 ### Regression
 
 The regression results are visualized using a **Syncfusion scatter plot** with a fitted linear regression line.  
-From the plot, it is evident that there is **no significant correlation** between the number of crimes and income per capita.
+From the plot, it is evident that there is **no significant correlation** between the number of `HiGH ENTITY THEFT` crimes and income per capita.
 **Note:** The income per capita is normalized.
 
 ![Classification map](assets/regression_plot.png)
