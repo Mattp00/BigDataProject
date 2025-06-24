@@ -56,7 +56,14 @@ The frontend provided a simple way to visualize the information extracted from t
 
 ### Backend
 
-The backend was developed in Scala using the **Cask** framework to handle REST operations.
+The backend was developed in Scala using the [**Cask**](https://com-lihaoyi.github.io/cask/) framework to handle REST operations.
+To run the backend, it is necessary to:
+
+1. Build the project using the `build.sbt` file.
+2. Use **Java 17**.
+3. Add the following options to **VM options** in "Edit Configuration":
+ *--add-exports java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED*
+4. Download the file ```Crimes_-_2001_to_Present.csv``` from the [Chicago site](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data) and put it in the data folder along with the other csv file `Chicago Health Atlas Data - MeanIncome - Mean population.csv`
 
 ### Frontend
 
@@ -68,5 +75,35 @@ To visualize the results, the following libraries were used:
 
 2. **Syncfusion Chart**:  
    Used to display the necessary plots and charts.
+
+## Results and visualization example
+
+This section aims to discuss some of the results obtained in this project.
+All the defined queries can be visualized using the backend and frontend available in this repository.
+
+### Classification
+
+The classification task is visualized in two ways:
+
+1. **Flutter Map**:  
+   - Blue markers represent correct predictions.  
+   - Red markers represent incorrect predictions.
+
+2. **Syncfusion Column Chart**:  
+   - Displays the number of correct and incorrect predictions.
+
+*Add figure here*
+
+> **Note:** The number of predictions is limited to 5,000 for visualization purposes.
+
+Two models were trained for the classification task.  
+The results show that the **Random Forest classifier** outperformed the **Logistic Regressor** in terms of accuracy.
+
+### Regression
+
+The regression results are visualized using a **Syncfusion scatter plot** with a fitted linear regression line.  
+From the plot, it is evident that there is **no significant correlation** between the number of crimes and income per capita.
+
+
 
 
