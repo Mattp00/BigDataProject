@@ -56,7 +56,7 @@ The frontend provided a simple way to visualize the information extracted from t
 
 ### Backend
 
-The backend was developed in Scala using the [**Cask**](https://com-lihaoyi.github.io/cask/) framework to handle REST operations.
+The backend was developed in Scala using the [**Cask**](https://com-lihaoyi.github.io/cask/) framework to handle REST operations using "Intellij IDEA Ultimate 2024.2.3".
 To run the backend, it is necessary to:
 
 1. Build the project using the `build.sbt` file.
