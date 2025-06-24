@@ -92,18 +92,20 @@ The classification task is visualized in two ways:
 2. **Syncfusion Column Chart**:  
    - Displays the number of correct and incorrect predictions.
 
-*Add figure here*
+![Classification map](assets/classification_map.png)
 
 > **Note:** The number of predictions is limited to 5,000 for visualization purposes.
 
 Two models were trained for the classification task.  
 The results show that the **Random Forest classifier** outperformed the **Logistic Regressor** in terms of accuracy.
 
+![Classification map](assets/classification_model_chart.png)
+
 ### Regression
 
 The regression results are visualized using a **Syncfusion scatter plot** with a fitted linear regression line.  
 From the plot, it is evident that there is **no significant correlation** between the number of crimes and income per capita.
 
-
+![Classification map](assets/regression_plot.png)
 
 
