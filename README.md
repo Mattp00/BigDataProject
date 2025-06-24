@@ -105,6 +105,7 @@ The results show that the **Random Forest classifier** outperformed the **Logist
 
 The regression results are visualized using a **Syncfusion scatter plot** with a fitted linear regression line.  
 From the plot, it is evident that there is **no significant correlation** between the number of crimes and income per capita.
+**Note:** The income per capita is normalized.
 
 ![Classification map](assets/regression_plot.png)
 
