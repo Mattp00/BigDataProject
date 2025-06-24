@@ -54,7 +54,7 @@ The implemented models can be summarized as follows:
 For the technical implementation, it was necessary to define an Apache Spark distributed engine using scala languagae.  
 The frontend provided a simple way to visualize the information extracted from the dataset by the backend.
 
-### Backend
+### Back-end
 
 The backend was developed in Scala using the [**Cask**](https://com-lihaoyi.github.io/cask/) framework to handle REST operations using "Intellij IDEA Ultimate 2024.2.3".
 To run the backend, it is necessary to:
@@ -65,7 +65,7 @@ To run the backend, it is necessary to:
  *--add-exports java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED*
 4. Download the file ```Crimes_-_2001_to_Present.csv``` from the [Chicago site](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data) and put it in the data folder along with the other csv file `Chicago Health Atlas Data - MeanIncome - Mean population.csv`
 
-### Frontend
+### Front-end
 
 The frontend was developed using the **Flutter** framework.  
 To visualize the results, the following libraries were used:
