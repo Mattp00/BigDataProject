@@ -1,4 +1,4 @@
-# BigDataProject
+# BigDataProject (Apache Spark)
 
 ## Introduction
 
